@@ -13,5 +13,5 @@ app.use(cors());
 app.use(passport.initialize());
 
 app.listen(PORT, () => {
-    console.log(`Server was started on port:${PORT}`);
+    console.log(`Server was started on port: ${PORT}`);
 });
